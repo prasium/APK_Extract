@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:title="@string/search" />
+
+<!--    <item-->
+<!--        android:id="@+id/system"-->
+<!--        app:actionViewClass="android.widget.CheckBox"-->
+<!--        app:showAsAction="collapseActionView"-->
+<!--        android:checkable="true"-->
+<!--        android:title="@string/show_system"/>-->
+
+    <item
+        android:id="@+id/share"
+        app:showAsAction="collapseActionView"
+        android:title="@string/share"/>
+
+    <item
+        android:id= "@+id/settings"
+        app:showAsAction="collapseActionView"
+        android:title="@string/settings"/>
+
+</menu>
